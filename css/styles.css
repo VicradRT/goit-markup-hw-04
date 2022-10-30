@@ -11,7 +11,6 @@ h1, h2, h3, p, ul, li{
   padding: 0;
 }
 body {
-  margin: 0;
   font-family: "Roboto", sans-serif;
   color: var(--main-font-color);
   background-color: var(--bg-color);
@@ -251,6 +250,8 @@ img{
 .team-section {
   background-color: #f5f4fa;
   padding: 94px 0;
+  max-width: 1600px;
+  margin: auto;
 }
 .team-title {
   margin-bottom: 50px;
@@ -368,6 +369,8 @@ img{
 }
 /* footer start */
 .footer-page {
+  margin: auto;
+  max-width: 1600px;
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2f303a;
@@ -407,6 +410,7 @@ img{
 .footer-container{
   display: flex;
   gap: 70px;
+  align-items: baseline;
 }
 .link-title{
     font-family: 'Roboto';
@@ -533,5 +537,5 @@ img{
   padding-left: 24px;
 }
 .portfolio{
-padding: 94px 0;
+  padding: 94px 0;
 }
